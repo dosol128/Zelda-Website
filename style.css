@@ -1,0 +1,88 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4ec; /* Light parchment color */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #1a4f33; /* Zelda Forest Green */
+  color: #d4af37; /* Triforce Gold */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header img {
+  max-width: 250px;
+  height: auto;
+  border: 4px solid #d4af37;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Main Content Area */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1a4f33;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 5px;
+}
+
+/* Typography and Extras */
+blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #222;
+  border-left: 5px solid #d4af37;
+  margin: 20px 0;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+footer a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}

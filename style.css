@@ -50,6 +50,7 @@ h2 {
   color: #1a4f33;
   border-bottom: 2px solid #d4af37;
   padding-bottom: 5px;
+  font-size: 25px;
 }
 
 /* Typography and Extras */
@@ -85,4 +86,12 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: #fff;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
